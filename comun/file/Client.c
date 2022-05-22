@@ -19,8 +19,8 @@ void send_file(FILE *fp, int sockfd){
 }
  
 int main(){
-  char *ip = "127.0.0.1";
-  int port = 8080;
+  char *ip = "20.78.9.73"; // IP do servidor
+  int port = 3389;
   int e;
  
   int sockfd;
