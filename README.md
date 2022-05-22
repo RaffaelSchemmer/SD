@@ -22,8 +22,8 @@ Este diretório possui 3 projetos C <br/>
 
 [3.1] Projeto do chat em C
 
-Este diretório contem o projeto de um chat servidor/cliente do tipo 1 servidor N clientes
-Você deve compilar os arquivos utilizando a sintáxe gcc Sync.c -lpthread -o Sync e gcc Sync.c -lpthread -o Sync <br/>
+Este diretório contem o projeto de um chat servidor/cliente do tipo 1 servidor N clientes <br/>
+Você deve compilar os arquivos utilizando a sintáxe gcc Client.c -lpthread -o Client e gcc Server.c -lpthread -o Server <br/>
 Rode o servidor utilizando o comando ./Server 3333 <br/>
 Rode o cliente utilizando o comando ./Client IPv4 3333 <br/>
 
