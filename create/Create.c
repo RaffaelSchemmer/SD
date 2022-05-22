@@ -23,8 +23,6 @@ int main(){
   create = pthread_create(&t1, NULL, PrintHello, (void *)num); //criando thread 2
 
   printf("Main: finalizando\n");
-  pthread_join(t1, NULL); // Faz main aguardar thread 1
-  pthread_join(t2, NULL); // Faz main aguardar thread 2
-  
+ 
   return 0;
 }
