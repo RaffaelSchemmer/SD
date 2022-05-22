@@ -9,7 +9,7 @@ Para compilar o arquivo utilize a sintáxe gcc Create.c -lpthread -o Create <br/
 Para rodar o código basta apontar para ./Create <br/>
 O resultado será de duas threads concorrendo pelo CPU e escrevendo mensagens de olá na tela <br/>
 
-[2] Sync [OK]
+[2] Sync
 
 Este diretório possui o arquivo Sync.c que explica como uma thread pode ser sincronizada em C <br/>
 Para compilar o arquivo utilize a sintáxe gcc Sync.c -lpthread -o Sync <br/>
