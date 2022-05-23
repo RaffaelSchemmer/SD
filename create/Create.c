@@ -20,7 +20,7 @@ int main(){
 
   num = 2;
   printf("Main: criando a thread %ld\n", num);
-  create = pthread_create(&t1, NULL, PrintHello, (void *)num); //criando thread 2
+  create = pthread_create(&t2, NULL, PrintHello, (void *)num); //criando thread 2
 
   printf("Main: finalizando\n");
  
